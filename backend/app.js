@@ -11,6 +11,8 @@ const dbClient = new Client({
   port: process.env.DB_PORT || 5432,
 });
 
+
+
 dbClient.connect()
   .then(() => console.log('Connected to Postgres'))
   .catch((err) => console.error('Failed to connect to Postgres', err));

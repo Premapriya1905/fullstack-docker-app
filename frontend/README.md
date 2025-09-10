@@ -2,6 +2,7 @@ Fullstack Docker App
 Services:
 
 Frontend (React) on http://localhost:3000
+
 Backend (Express) on http://localhost:5000
 Database (PostgreSQL) on port 5432
 How to run
