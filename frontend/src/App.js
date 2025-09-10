@@ -10,6 +10,8 @@ function App() {
       .catch((err) => console.error('Error fetching from backend:', err));
   }, []);
 
+
+  
   return (
     <div>
       <h1>React + Express + Postgres App</h1>
